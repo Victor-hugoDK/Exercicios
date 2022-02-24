@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>APSA</title>
+    <style>
+        
+        #tabela {
+            background: #003770;
+            background-image: url(./img/background_body.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: bottom left;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            width: 650px;
+            max-width: 650px;
+        }
+
+        #logotipo {
+            background-color: #003770;
+            display: flex;
+            flex-direction: row;
+            justify-content: left;
+            align-items: center;
+            margin-right: 30%;
+            margin-left: 30%;
+            width: 700px;
+            max-width: 700;
+            
+        }
+
+        .nav {
+            margin-left: 200px;
+            margin-right: 200px;
+            background-color: #ec6608;
+            color: white;
+            display: flex;
+            flex-direction: row;
+        }
+
+        #check {
+            background-color: #ec6608;
+            margin-left: 30%;
+            margin-right: 30%;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            width: 700px;
+            max-width: 700px;
+        }
+
+        .btn-primary {
+            background-color: #37bb84;
+            border: none;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .btn {
+            background-color: #ec6608;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+        }
+
+        p {
+
+            margin-left: 20px;
+            margin-right: 90px;
+
+        }
+        
+        @media only screen and (max-device-width: 480px), only screen and (max-width: 480px) {
+			body,header,nav,section { width: 480px !important; min-width: 480px !important; }
+            #check{width: 530px;}
+            .mobile{width: 480px;}
+        }
+    </style>
+</head>
+
+
+<body>
+    <header>
+        <div id="logotipo">
+            <img src="./img/logotipo-apsa.png" alt
+                style="margin-left: 30px; size: 50px; padding-top: 15px; padding-bottom: 15px; width: 150px;">
+        </div>
+    </header>
+    <nav>
+        <div  id="check">
+            <p class="mobile" style="background-image: url(./img/check.png); background-repeat: no-repeat;
+                background-size:15%;background-position: right; margin-top: 0px; margin-bottom: 0px; margin-right: 40px;
+                margin-left: 27px; padding-top: 10px; padding-bottom: 10px; color: white;">
+                <strong>Condomínio Digital Apsa - Simulação</strong>
+            </p>
+        </div>
+    </nav>
+    <section>
+        <div id="tabela" align="center" style="padding:25px; margin-left: 30%; margin-right: 30% ;  ">
+            <table width="650" align="center" style="background-color: white; margin-bottom: 20px; box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.233);
+            ">
+                <tr>
+                    <td>
+                        <p style="margin-top: 20px; font-family: sans-serif;">Olá {Nome}</p>
+                        <p> Obrigado por ser interessar pela gestão condominial da Apsa! Segue abaixo os dados do resumo
+                            da sua simulação!</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p style="margin-bottom: 0px; font-family: sans-serif;">Plano selecionado: {Plano-selecionado}
+                        </p>
+                        <p style="margin-top:0px; font-family: sans-serif;">{Descrição do produto}</p>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td id="unidades">
+                        <p style="font-family: sans-serif;">Quantidade de Unidades: {Qtd-Unidades}</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p style="font-family: sans-serif;">Quantidade de Funcionários: {Qtd-funcionários}</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td height="40px">
+                        <p style="font-family: sans-serif;">valor da simulação: {Valor-simmulação}</p><br><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center"><button type="button" class="btn" style="
+                        padding-left: 41px;
+                        padding-right: 41px;
+                        margin-bottom: 5px; font-family: sans-serif;"><a style="text-decoration: none; color:white;"
+                                href="#"><strong>Concluir Contratação</strong></a></button></td>
+                            
+                </tr>
+                
+                <tr>
+                    <td align="center"><button class="btn-primary" style="
+                        padding-top: 15px;
+                        padding-bottom: 15px;
+                        padding-left: 15px;
+                        padding-right: 15px;
+                        margin-top: 5px; font-family: sans-serif;"><a class="btn-primary"
+                                href="https://web.whatsapp.com/">
+                                <strong>Falar com um consultor</strong> <img src="./img/whatsapp-brands.png" alt
+                                    style="width: 20px; padding-left: 15px;"></a></button>
+                        <br>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <footer>
+        <div align="center" style="background-color: #003770; margin-left: 30%; margin-right: 30%; color: white; padding-top: 15px;
+        padding-bottom: 15px; justify-content: center; align-items: center; width: 700px;
+            max-width: 700px;"><strong>Acesse</strong> apsa.com.br</div>
+    </footer>
+</body>
+
+</html>

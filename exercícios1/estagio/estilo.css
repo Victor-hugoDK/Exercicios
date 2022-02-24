@@ -1,0 +1,72 @@
+#tabela {
+    background: #003770;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#logotipo {
+    align-items: center;
+    display: flex;
+    background-color: #003770;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-left: 200px;
+}
+
+nav {
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: rgb(250, 123, 4);
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+#check {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: left;
+}
+
+table {
+    background-color: white;
+}
+
+.btn-primary {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    background-color: #fc7a00;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+form {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}

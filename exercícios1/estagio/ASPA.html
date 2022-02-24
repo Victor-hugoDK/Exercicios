@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APSA</title>
+    <link href="./estilo.css" rel="stylesheet">
+
+</head>
+
+
+<body>
+    <header>
+        <div id="logotipo">
+            <img src="./img/Imagens usadas/logotipo-apsa.png" alt="">
+        </div>
+    </header>
+    <nav><strong>Condomínio Digital Apsa - Simulação</strong>
+        <div id="check"><img src="./img/Imagens usadas/check.png" alt=""></div>
+    </nav>
+    <section>
+        <div id="tabela">
+            <table>
+                <tr>
+                    <td id="nome" height="50px">Olá
+                    </td>
+
+                </tr>
+                <tr>
+                    <td> Obrigado por ser interessar pela gestão condominial da Apsa!<br> Segue abaixo os dados do resumo da sua simulação!
+                    </td>
+                </tr>
+                <tr>
+                    <td height="50px" >Plano selecionado</td>
+                    <td height="100px" ></td>
+                </tr>
+                <tr>
+                    <td id="unidades">Quantidade de Unidades: </td>
+                </tr>
+                <tr>
+                    <td>Quantidade de Funcionários</td>
+                </tr>
+                <tr>
+                    <td height="40px">valor da simulação:</td>
+                </tr>
+
+            </table>
+        </div>
+        <div id="btt">
+            <button class="btn" type="submit">Concluir Contratação </button>
+        </div> <br>
+        <form>
+            <a href="https://www.youtube.com/watch?v=uelHwf8o7_U">
+                <input type="button" class="btn-primary" value="Falar com um consultor">
+                <img src="./img/Imagens usadas/whatsapp-brands.png" alt style="width:30px;">
+                </input>
+            </a>
+        </form>
+    </section>
+
+    <script>
+        var uni = 50
+        document.getElementById("unidades").innerHTML =  "Quantidade de Unidades:" + uni
+        var name = "victor"
+        document.getElementById("nome").innerHTML = "Olá " + name
+    </script>
+</body>
+
+</html>
